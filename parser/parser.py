@@ -29,7 +29,6 @@ parser = nltk.ChartParser(grammar)
 
 
 def main():
-
     if len(sys.argv) == 2:
         with open(sys.argv[1]) as f:
             s = f.read()
